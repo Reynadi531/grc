@@ -5,7 +5,7 @@ RUN apk update && \
 
 WORKDIR /app
 
-RUN go install github.com/cosmtrek/air@latest
+RUN go install github.com/air-verse/air@latest
 
 ENTRYPOINT ["/sbin/tini", "--"]
 
