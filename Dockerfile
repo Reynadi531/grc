@@ -7,7 +7,5 @@ WORKDIR /app
 
 RUN go install github.com/air-verse/air@latest
 
-RUN git config --global --add safe.directory $PWD
-
 
 CMD [ "air" ]
