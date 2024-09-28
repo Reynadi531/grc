@@ -1,4 +1,4 @@
-FROM golang:1.23-alpine
+FROM golang:1.23.1-alpine
 
 RUN apk update && \
     apk add git bash curl openssl musl-dev --no-cache
